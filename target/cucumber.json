@@ -1,0 +1,221 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-01T17:01:24.772Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1942828700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.betterplace.step_defs.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "visit and prepare a donation",
+        "description": "",
+        "id": "donation-form-for-visit-and-payment-method;visit-and-prepare-a-donation",
+        "after": [
+          {
+            "result": {
+              "duration": 629670300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.betterplace.step_defs.hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6341210200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I visited donation Portal site",
+            "match": {
+              "location": "org.betterplace.step_defs.DonationFormStepDefs.I_visited_donation_Portal_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2362284500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I should prepare a donation of money",
+            "match": {
+              "location": "org.betterplace.step_defs.DonationFormStepDefs.I_should_prepare_a_donation_of_money()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153684400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should using the payment method",
+            "match": {
+              "location": "org.betterplace.step_defs.DonationFormStepDefs.I_should_using_the_payment_method()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3966813400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I fill out the form donation data",
+            "match": {
+              "location": "org.betterplace.step_defs.DonationFormStepDefs.I_fill_out_the_form_donation_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6424841700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click receive a donation receipt",
+            "match": {
+              "location": "org.betterplace.step_defs.DonationFormStepDefs.I_click_receive_a_donation_receipt()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5983079200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I fill information could be deducted from the tax",
+            "match": {
+              "location": "org.betterplace.step_defs.DonationFormStepDefs.I_fill_information_could_be_deducted_from_the_tax()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3787618200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click submit donation button",
+            "match": {
+              "location": "org.betterplace.step_defs.DonationFormStepDefs.I_click_submit_donation_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@betterP"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-01T17:01:56.457Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1236759500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.betterplace.step_defs.hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "the test should be fail",
+        "description": "",
+        "id": "donation-form-for-visit-and-payment-method;the-test-should-be-fail",
+        "after": [
+          {
+            "result": {
+              "duration": 692204600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.betterplace.step_defs.hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8414130000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I visited the Portal site",
+            "match": {
+              "location": "org.betterplace.step_defs.DonationFormStepDefs.i_visited_the_Portal_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 79213700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I choose transfer",
+            "match": {
+              "location": "org.betterplace.step_defs.DonationFormStepDefs.i_choose_transfer()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3716299000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I fill the donation data",
+            "match": {
+              "location": "org.betterplace.step_defs.DonationFormStepDefs.i_fill_the_donation_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2142757200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I clicked submit donation button",
+            "match": {
+              "location": "org.betterplace.step_defs.DonationFormStepDefs.i_clicked_submit_donation_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@betterP"
+          }
+        ]
+      }
+    ],
+    "name": "Donation form for visit and payment method",
+    "description": "",
+    "id": "donation-form-for-visit-and-payment-method",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/DonationForm.feature",
+    "tags": []
+  }
+]
